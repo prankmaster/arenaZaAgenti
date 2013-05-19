@@ -9,6 +9,10 @@
 	Hello world!  
 </h1>
 
-<P>  The time on the server is ${serverTime}. </P>
+<form>
+<textarea id="code" cols="80" rows="30" name="code" style="overflow: auto">
+</textarea>
+<button type="submit" name="submit_code" formmethod="post">Send code</button>
+</form>
 </body>
 </html>
